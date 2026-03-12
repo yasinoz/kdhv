@@ -20,12 +20,12 @@ Installation & Usage
 2. Execution
   Run: Right-click HyperV_killer_v3.bat and select "Run as Administrator".
   Automated Step: The system will process DISM features and registry keys, then reboot automatically.
-[!IMPORTANT]
-  BIOS/UEFI INTERACTION:
+
+  > BIOS/UEFI INTERACTION:
   During the boot sequence, a blue screen (Opt-out) will appear. You MUST press F3 to confirm the removal of Credential Guard/VBS settings.
 
-Disclaimer
-[!CAUTION]
+> Disclaimer
+
 This tool reduces the security posture of the OS by disabling Virtualization-Based Security (VBS).
 * It is intended for lab environments, gaming optimization, and development purposes.
 * Use at your own risk.
